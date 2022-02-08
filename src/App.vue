@@ -4,7 +4,7 @@
       <header-box/>
     </header>
     <main>
-    <central-content/>
+    <main-box/>
     </main>
     <footer>
       <div class="lable"></div>
@@ -16,13 +16,13 @@
 
 <script>
 import HeaderBox from './components/HeaderBox.vue'
-import CentralContent from './components/CentralContent.vue'
+import MainBox from './components/MainBox.vue'
 
 export default {
   name: 'App',
   components: {
-    CentralContent,
     HeaderBox,
+    MainBox,
 
   },
   data () {
