@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="fixed-bar flex-just-center">
+        <div class="fixed-bar flex-just-center w-100">
             <div class="row">
                 <span>Everything about Lifestyle, Travel and Gadgets!</span>
                 <a href="#">SIGN IN</a>
@@ -45,7 +45,6 @@ export default {
 <style lang="scss">
 @import '@/style/variables.scss';
 .fixed-bar{
-    width: 100%;
     height: 60px;
     background-color: $main-blue-color;
     font-weight: 900;
