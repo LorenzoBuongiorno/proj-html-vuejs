@@ -1,28 +1,41 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header>
+      <div class="fixed-bar"></div>
+      <div class="logo"></div>
+      <div class="navbar"></div>
+    </header>
+    <main>
+      <div class="jumbotron"></div>
+      <div class="content-preview">
+        <div class="popular-posts"></div>
+        <div class="recent-posts"></div>
+        <div class="featured-posts"></div>
+      </div>
+      <div class="category"></div>
+      <div class="latest-socials"></div>
+      <div class="main-content"></div>
+    </main>
+    <footer>
+      <div class="lable"></div>
+      <div class="footer-content"></div>
+      <div class="footer-bottom-bar"></div>
+    </footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+
   }
 }
 </script>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
 </style>
