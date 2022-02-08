@@ -4,15 +4,7 @@
       <header-box/>
     </header>
     <main>
-      <div class="jumbotron"></div>
-      <div class="content-preview">
-        <div class="popular-posts"></div>
-        <div class="recent-posts"></div>
-        <div class="featured-posts"></div>
-      </div>
-      <div class="category"></div>
-      <div class="latest-socials"></div>
-      <div class="main-content"></div>
+    <central-content/>
     </main>
     <footer>
       <div class="lable"></div>
@@ -24,11 +16,13 @@
 
 <script>
 import HeaderBox from './components/HeaderBox.vue'
+import CentralContent from './components/CentralContent.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderBox
+    CentralContent,
+    HeaderBox,
 
   },
   data () {
@@ -239,7 +233,5 @@ export default {
 @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
 @import 'style/main.scss';
-#app {
 
-}
 </style>
