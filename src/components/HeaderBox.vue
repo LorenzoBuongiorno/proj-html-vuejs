@@ -48,6 +48,7 @@ export default {
     height: 60px;
     background-color: $main-blue-color;
     font-weight: 900;
+    align-items: center;
     span{
         font-size: 14px;
         margin: 0px 15px;
@@ -92,6 +93,7 @@ export default {
     }
     .row{
         justify-content: space-between;
+            align-items: center;
     }
 }
 </style>

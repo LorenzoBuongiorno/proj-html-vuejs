@@ -3,7 +3,7 @@
         <img class="w-100" :src="'/images/blog-' + post.bg_image + '.jpg'" alt="">
         <div class="post-introduction">
             <span class="category">{{post.category[0]}}</span>
-            <div class="description">{{post.title}}</div>
+            <div class="title">{{post.title}}</div>
         </div>
     </div>
 </template>
@@ -30,7 +30,7 @@ export default {
         font-size: 15px;
         background-color: $main-blue-color;
     }
-    .description{
+    .title{
         color: $light-color;
         font-weight: 900;
         font-size: 25px;

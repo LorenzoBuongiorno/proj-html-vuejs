@@ -21,7 +21,10 @@
               <small-card v-if="i > 10 && i < 16" :postSmall="postSmall"/>
             </div>
           </div>
-          <div class="jumbo-column featured-posts"></div>
+          <div class="jumbo-column featured-posts">
+            <featured-card :posts="posts"/>
+          
+          </div>
         </div>
       </div>
       <div class="category"></div>
@@ -33,11 +36,13 @@
 <script>
 import JumbotronCard from './JumbotronCard.vue'
 import SmallCard from './SmallCard.vue'
+import FeaturedCard from './FeaturedCard.vue'
 
 export default {
   components: { 
     JumbotronCard,
-    SmallCard
+    SmallCard,
+    FeaturedCard
     },
     props: {
       posts: Array,
@@ -65,7 +70,7 @@ export default {
     margin: 0px 10px;
   }
   h2{
-    margin: 10px 0px;
+    margin: 30px 0px;
     color: #333;
   }
 }
