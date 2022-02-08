@@ -4,7 +4,7 @@
       <header-box/>
     </header>
     <main>
-    <main-box/>
+    <main-box :posts="posts"/>
     </main>
     <footer>
       <div class="lable"></div>
