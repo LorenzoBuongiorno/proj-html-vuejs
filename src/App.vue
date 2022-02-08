@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <div class="fixed-bar"></div>
-      <div class="logo"></div>
-      <div class="navbar"></div>
+      <header-box/>
     </header>
     <main>
       <div class="jumbotron"></div>
@@ -25,16 +23,20 @@
 </template>
 
 <script>
+import HeaderBox from './components/HeaderBox.vue'
 
 export default {
   name: 'App',
   components: {
+    HeaderBox
 
   }
 }
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+@import 'style/main.scss';
 #app {
 
 }
