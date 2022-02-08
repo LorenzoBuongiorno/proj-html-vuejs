@@ -30,6 +30,207 @@ export default {
   components: {
     HeaderBox
 
+  },
+  data () {
+    return {
+      posts: [
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'How To Take Better Concert Pictures in 30 Seconds',
+          category: [
+            'photography'
+            ],
+          bg_image: 46,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Gadgets That Make Your Smartphone Even Smarter',
+          category: [
+            'gadgets'
+            ],
+          bg_image: 47,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: '20Top-Rated Tourist Attractions in Manhattan',
+          category: [
+            'travel'
+            ],
+          bg_image: 48,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'The Best Way to Ride a Motorcycle',
+          category: [
+            'lifestyle'
+            ],
+          bg_image: 49,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: '5 Fun Things to Do at the Beach',
+          category: [
+            'travel'
+            ],
+          bg_image: 50,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          category: [
+            'recipes'
+            ],
+          bg_image: 51,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Simple Ways to Have a Pretty Face',
+          category: [
+            'photography',
+            'travel'
+            ],
+          bg_image: 55,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Ranking the greatest players in basketball',
+          category: [
+            'sports',
+            'businnes'
+            ],
+          bg_image: 56,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: '4 Ways to Look Cool in Glasses',
+          category: [
+            'photography'
+            ],
+          bg_image: 57,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Top Camper Trailer Towing Tips',
+          category: [
+            'travel',
+            'lifestyle'
+            ],
+          bg_image: 58,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: '5 Lovely Walks in New York',
+          category: [
+            'travel'
+            ],
+          bg_image: 59,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Main Reasons To Stop Texting And Driving',
+          category: [
+            'travel'
+            ],
+          bg_image: 65,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Tips to Help You Quickly Prepare your Lunch',
+          category: [
+            'recipes'
+            ],
+          bg_image: 66,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'Why should I buy a smartwatch?',
+          category: [
+            'gadgets'
+            ],
+          bg_image: 67,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'The best augmented reality smartglasses',
+          category: [
+            'gadgets'
+            ],
+          bg_image: 68,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: '12 Healthiest Food to Eat for Breakfast',
+          category: [
+            'recipes'
+            ],
+          bg_image: 69,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+      ]
+    }
   }
 }
 </script>

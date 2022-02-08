@@ -27,7 +27,10 @@
                     <a href="#">BLOG</a>
                     <a href="#">SHOP</a>
                 </div>
-                <button><i class="fas fa-search"></i></button>
+                <div>
+                    <input type="text" placeholder="search">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
             </div>
         </div>
     </div>
@@ -85,6 +88,11 @@ export default {
         &:hover{
             color: $main-blue-color;
         }
+    }
+    input{
+        border: 0px;
+        padding: 10px;
+        margin-right: 10px;
     }
     button{
         border: 0px;
