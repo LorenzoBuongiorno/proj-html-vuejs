@@ -8,3 +8,22 @@
 a{
     text-decoration: none;
 }
+
+.flex-just-center{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    width: 1700px;
+    display: flex;
+    align-items: center;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.empty{
+    display: none;
+}

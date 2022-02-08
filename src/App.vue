@@ -37,7 +37,7 @@ export default {
             ],
           bg_image: 46,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -49,7 +49,7 @@ export default {
             ],
           bg_image: 47,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -61,7 +61,7 @@ export default {
             ],
           bg_image: 48,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -73,7 +73,7 @@ export default {
             ],
           bg_image: 49,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -85,7 +85,7 @@ export default {
             ],
           bg_image: 50,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -97,7 +97,7 @@ export default {
             ],
           bg_image: 51,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -110,7 +110,7 @@ export default {
             ],
           bg_image: 55,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -123,7 +123,7 @@ export default {
             ],
           bg_image: 56,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -135,7 +135,7 @@ export default {
             ],
           bg_image: 57,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -148,7 +148,7 @@ export default {
             ],
           bg_image: 58,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -160,7 +160,7 @@ export default {
             ],
           bg_image: 59,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -172,7 +172,7 @@ export default {
             ],
           bg_image: 65,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -184,7 +184,7 @@ export default {
             ],
           bg_image: 66,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -196,7 +196,7 @@ export default {
             ],
           bg_image: 67,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -208,7 +208,7 @@ export default {
             ],
           bg_image: 68,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
         {
@@ -220,7 +220,7 @@ export default {
             ],
           bg_image: 69,
           date: 'January 12, 2019',
-          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
       ]

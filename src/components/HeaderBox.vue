@@ -12,7 +12,7 @@
         <div class="logo flex-just-center">
             <div class="row">
                 <a href="#">
-                    <img src="@/assets/images/logo-default-slim.png" alt="">
+                    <img src="/images/logo-default-slim.png" alt="">
                 </a>
             </div>
         </div>
@@ -44,15 +44,6 @@ export default {
 
 <style lang="scss">
 @import '@/style/variables.scss';
-.row{
-    width: 1700px;
-    display: flex;
-    align-items: center;
-}
-.flex-just-center{
-    display: flex;
-    justify-content: center;
-}
 .fixed-bar{
     width: 100%;
     height: 60px;
