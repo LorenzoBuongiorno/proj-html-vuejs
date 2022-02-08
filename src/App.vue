@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
 @import 'style/main.scss';
 #app {

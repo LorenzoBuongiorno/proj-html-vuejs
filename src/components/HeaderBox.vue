@@ -18,13 +18,16 @@
         </div>
         <div class="navbar flex-just-center">
             <div class="row">
-                <a href="#">HOME</a>
-                <a href="#">ELEMENTS</a>
-                <a href="#">FEATURES</a>
-                <a href="#">PAGES</a>
-                <a href="#">PORTFOLIO</a>
-                <a href="#">BLOG</a>
-                <a href="#">SHOP</a>
+                <div>
+                    <a href="#">HOME</a>
+                    <a href="#">ELEMENTS</a>
+                    <a href="#">FEATURES</a>
+                    <a href="#">PAGES</a>
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">SHOP</a>
+                </div>
+                <button><i class="fas fa-search"></i></button>
             </div>
         </div>
     </div>
@@ -82,6 +85,15 @@ export default {
         &:hover{
             color: $main-blue-color;
         }
+    }
+    button{
+        border: 0px;
+        background-color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .row{
+        justify-content: space-between;
     }
 }
 </style>
