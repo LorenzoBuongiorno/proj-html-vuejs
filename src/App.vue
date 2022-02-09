@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header>
-      <header-box/>
+      <header-box :nav="nav"/>
     </header>
     <main>
     <main-box :posts="posts"/>
@@ -27,6 +27,53 @@ export default {
   },
   data () {
     return {
+      nav: [
+        {
+          section: 'SIGN IN',
+          url: '#'
+        },
+        {
+          section: 'ABOUT',
+          url: '#'
+        },
+        {
+          section: 'CONTACT US',
+          url: '#'
+        },
+        {
+          section: 'BUY NOW',
+          url: '#'
+        },
+        {
+          section: 'HOME',
+          url: '#'
+        },
+        {
+          section: 'ELEMENTS',
+          url: '#'
+        },
+        {
+          section: 'FEATURES',
+          url: '#'
+        },
+        {
+          section: 'PAGES',
+          url: '#'
+        },
+        {
+          section: 'PORTFOLIO',
+          url: '#'
+        },
+        {
+          section: 'BLOG',
+          url: '#'
+        },
+        {
+          section: 'SHOP',
+          url: '#'
+        },
+        
+      ],
       posts: [
         {
           author: 'John Doe',

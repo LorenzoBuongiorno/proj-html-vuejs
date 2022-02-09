@@ -3,10 +3,9 @@
         <div class="fixed-bar flex-just-center w-100">
             <div class="row">
                 <span>Everything about Lifestyle, Travel and Gadgets!</span>
-                <a href="#">SIGN IN</a>
-                <a href="#">ABOUT US</a>
-                <a href="#">CONTACT US</a>
-                <a href="#">BUY NOW</a>
+                <ul class="flex-just-center">
+                    <li v-for="(element,i) in nav" :key="i"><a :href="element.url" :class="i < 4 ? '' : 'empty'">{{element.section}}</a></li>
+                </ul>
             </div>
         </div>
         <div class="logo flex-just-center">
@@ -18,15 +17,9 @@
         </div>
         <div class="navbar flex-just-center">
             <div class="row">
-                <div>
-                    <a href="#">HOME</a>
-                    <a href="#">ELEMENTS</a>
-                    <a href="#">FEATURES</a>
-                    <a href="#">PAGES</a>
-                    <a href="#">PORTFOLIO</a>
-                    <a href="#">BLOG</a>
-                    <a href="#">SHOP</a>
-                </div>
+                <ul class="flex-just-center">
+                    <li v-for="(element,i) in nav" :key="i"><a :href="element.url" :class="i > 3 ? '' : 'empty'">{{element.section}}</a></li>
+                </ul>
                 <div>
                     <input type="text" placeholder="search">
                     <button><i class="fas fa-search"></i></button>
@@ -38,7 +31,9 @@
 
 <script>
 export default {
-    
+    props:{
+        nav: Array
+    }
 }
 </script>
 

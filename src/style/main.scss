@@ -9,13 +9,17 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .flex-just-center{
     display: flex;
     justify-content: center;
 }
 
 .row{
-    width: 1700px;
+    width: 1600px;
     display: flex;
 }
 
