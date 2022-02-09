@@ -20,7 +20,7 @@
                                 <span>
                                     <i class="far fa-folder"></i>
                                     <a href="#" v-for="(genre,i) in posts[17].category" :key="i">
-                                    <span v-if="i > 0">{{genre}}</span>
+                                    <span v-if="i + 1 == posts[17].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
@@ -53,7 +53,7 @@
                                 <span>
                                     <i class="far fa-folder"></i>
                                     <a href="#" v-for="(genre,i) in posts[6].category" :key="i">
-                                    <span v-if="i > 0">{{genre}}</span>
+                                    <span v-if="i + 1 == posts[6].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
@@ -86,7 +86,7 @@
                                 <span>
                                     <i class="far fa-folder"></i>
                                     <a href="#" v-for="(genre,i) in posts[7].category" :key="i">
-                                    <span v-if="i > 0">{{genre}}</span>
+                                    <span v-if="i + 1 == posts[7].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
@@ -119,7 +119,7 @@
                                 <span>
                                     <i class="far fa-folder"></i>
                                     <a href="#" v-for="(genre,i) in posts[9].category" :key="i">
-                                    <span v-if="i > 0">{{genre}}</span>
+                                    <span v-if="i + 1 == posts[9].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
@@ -152,7 +152,7 @@
                                 <span>
                                     <i class="far fa-folder"></i>
                                     <a href="#" v-for="(genre,i) in posts[16].category" :key="i">
-                                    <span v-if="i > 0">{{genre}}</span>
+                                    <span v-if="i + 1 == posts[16].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
