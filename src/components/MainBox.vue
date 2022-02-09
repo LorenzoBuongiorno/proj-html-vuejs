@@ -117,13 +117,11 @@ export default {
   }
 }
 .main-content{
-  background-color: red;
-  width: 80%;
-  height: 100px;
+  width: 70%;
 }
 .latest-socials{
   background-color: green;
-  width: 20%;
+  width: 30%;
   height: 100px;
 }
 

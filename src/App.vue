@@ -243,7 +243,19 @@ export default {
           description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
-        
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: 'How to Make Friends as a Grown-Up',
+          category: [
+            'lifestyle',
+            'travel'
+            ],
+          bg_image: 54,
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
       ]
     }
   }
