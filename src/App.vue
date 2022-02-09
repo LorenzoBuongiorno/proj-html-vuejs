@@ -223,6 +223,27 @@ export default {
           description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
+        {
+          author: 'John Doe',
+          profile_pic: 'avatar',
+          title: '10 Best Travel Tips After 5 year Traveling The World',
+          category: [
+            'travel',
+            'lifestyle'
+            ],
+          bg_image: [
+            13,
+            16,
+            20,
+            23,
+            29,
+            40
+          ],
+          date: 'January 12, 2019',
+          description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
+          content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
+        },
+        
       ]
     }
   }

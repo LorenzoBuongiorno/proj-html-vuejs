@@ -39,8 +39,14 @@
           <div><i class="fas fa-angle-right"></i></div>
         </div>
       </div>
-      <div class="latest-socials"></div>
-      <div class="main-content"></div>
+      <div class="central-page flex-just-center">
+        <div class="row">
+          <div class="main-content">
+            <post-card :posts="posts"/>
+          </div>
+          <div class="latest-socials"></div>
+        </div>
+      </div>
     </div>
 </template>
 
@@ -48,12 +54,14 @@
 import JumbotronCard from './JumbotronCard.vue'
 import SmallCard from './SmallCard.vue'
 import FeaturedCard from './FeaturedCard.vue'
+import PostCard from './PostCard.vue'
 
 export default {
   components: { 
     JumbotronCard,
     SmallCard,
-    FeaturedCard
+    FeaturedCard,
+    PostCard
     },
     props: {
       posts: Array,
@@ -89,7 +97,6 @@ export default {
 .category{
   background-color: $main-blue-color;
   .row{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     i{
@@ -109,4 +116,17 @@ export default {
     }
   }
 }
+.main-content{
+  background-color: red;
+  width: 80%;
+  height: 100px;
+}
+.latest-socials{
+  background-color: green;
+  width: 20%;
+  height: 100px;
+}
+
+
+
 </style>
