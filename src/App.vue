@@ -303,6 +303,50 @@ export default {
           description: 'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et!',
           content:'Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!Harum doloribus laudantium culpa laboriosam amet quis neque eaque esse praesentium et aspernatur distinctio laborum excepturi ut error voluptate reprehenderit, totam dolorem!',
         },
+      ],
+      blogInfo: [
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, doloribus, laborum labore perferendis mollitia accusantium voluptatem dolorem sint nesciunt esse magnam hic impedit cupiditate. Quae dolorum id repellat dignissimos deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro illo perferendis nisi doloremque magni, architecto alias excepturi totam sunt vero quis, odit aperiam possimus veritatis officiis atque repellendus eos quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio suscipit perspiciatis veniam ducimus laudantium, ea dolor vel a officia deleniti, eius rerum laboriosam eligendi possimus porro facilis nulla consequatur?',
+      ],
+      recentPosts: [
+        {
+          title: 'Lorem ipsum dolor sit, consectetur adipiscing alit.',
+          date: '12:53 AM Dec 19th',
+          post_image: 'our-office-4-square.jpg'
+        },
+        {
+          title: 'Lorem ipsum dolor sit, consectetur adipiscing alit.',
+          date: '12:53 AM Dec 19th',
+          post_image: 'our-office-5-square.jpg'
+        },
+      ],
+      recentComments: [
+        {
+          author: 'John Doe',
+          post_title_comment: 'lorem ipson dolor sit amet.',
+          date: '12:55 AM Dec 19th'
+        },
+        {
+          author: 'John Doe',
+          post_title_comment: 'lorem ipson dolor sit amet.',
+          date: '12:55 AM Dec 19th'
+        },
+        
+      ],
+      categories: [
+        'gadgets',
+        'photography',
+        'lifestyle',
+        'fashion',
+        'recipes',
+        'travel',
+        'business',
+        'architecture',
+        'reviews',
+        'sports',
+        'videos',
+        'technology',
+        'design',
+
       ]
     }
   }
