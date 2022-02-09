@@ -141,7 +141,7 @@
                 </div>
                 <div class="description">
                     <div class="date">
-                        <div class="date-number">12</div>
+                        <div class="date-number">8</div>
                         <div class="date-month">jan</div>
                     </div>
                     <div class="info">

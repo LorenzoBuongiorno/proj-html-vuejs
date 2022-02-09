@@ -44,7 +44,25 @@
           <div class="main-content">
             <post-card :posts="posts"/>
           </div>
-          <div class="latest-socials"></div>
+          <div class="latest-socials">
+            <h2>LATEST FROM TWITTER</h2>
+            <!-- COMMENT 1 -->
+            <div class="twitter-comment flex-just-center">
+              <i class="fab fa-twitter"></i>
+              <div>
+                <p>If you have any suggestion for the next update, let us know.</p>
+                <span>01:05 PM Sep 18th</span>
+              </div>
+            </div>
+            <!-- COMMENT 2 -->
+            <div class="twitter-comment flex-just-center">
+              <i class="fab fa-twitter"></i>
+              <div>
+                <p>We have just updated Porto Admin. Check the changelog for more information.</p>
+                <span>01:04 PM Sep 18th</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -115,14 +133,35 @@ export default {
       cursor: pointer;
     }
   }
+  
 }
 .main-content{
   width: 70%;
 }
 .latest-socials{
-  background-color: green;
+  padding: 30px;
   width: 30%;
-  height: 100px;
+  h2{
+    color: #333;
+  }
+  .twitter-comment{
+    padding-top: 30px;
+    .fa-twitter{
+      font-size: 30px;
+      color: #333;
+    }
+    div{
+      margin-left: 15px;
+      p{
+        color: #888;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+      span{
+        color: $main-blue-color;
+      }
+    }
+  }
 }
 
 
