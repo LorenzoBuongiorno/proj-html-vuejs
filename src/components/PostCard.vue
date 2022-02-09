@@ -135,9 +135,7 @@
         <div class="post flex-just-center">
             <div>
                 <div class="main-image-array">
-                    <div class="image-array" v-for="(img,i) in posts[16].bg_image" :key="i">
-                        <img class="w-100" :src="'/images/blog-' + img + '.jpg'" alt="">
-                    </div>
+                    <img v-for="(img,i) in posts[16].bg_image" :key="i" :src="'/images/blog-' + img + '.jpg'" alt="">
                 </div>
                 <div class="description">
                     <div class="date">
@@ -243,14 +241,11 @@ export default {
        }
     }
     .main-image-array{
+        margin: 20px 0px;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 20px;
-        .image-array{
+        img{
             width: calc(100% / 3);
-            img{
-                height: 100%;
-            }
         }
     }
 }

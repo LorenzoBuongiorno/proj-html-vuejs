@@ -62,6 +62,15 @@
                 <span>01:04 PM Sep 18th</span>
               </div>
             </div>
+            <h2>PHOTOS FROM INSTAGRAM</h2>
+            <div class="instagram-post">
+              <img src="/images/29739607_2020680068220520_4509928046932787200_n.jpg" alt="">
+              <img src="/images/30087804_253872848488989_8792603541668626432_n.jpg" alt="">
+              <img src="/images/29415620_196477127626244_3250318472361541632_n.jpg" alt="">
+              <img src="/images/30078414_1274410412703843_8290935809419247616_n.jpg" alt="">
+              <img src="/images/30077195_2066750973610181_3733150062893596672_n.jpg" alt="">
+              <img src="/images/29415304_166583630713703_1032667922171953152_n.jpg" alt="">
+            </div>
           </div>
         </div>
       </div>
@@ -139,10 +148,11 @@ export default {
   width: 70%;
 }
 .latest-socials{
-  padding: 30px;
+  padding: 15px;
   width: 30%;
   h2{
     color: #333;
+    margin: 20px 0px;
   }
   .twitter-comment{
     padding-top: 30px;
@@ -160,6 +170,14 @@ export default {
       span{
         color: $main-blue-color;
       }
+    }
+  }
+
+  .instagram-post{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+      width: calc(100% / 3);
     }
   }
 }
