@@ -7,9 +7,7 @@
     <main-box :posts="posts"/>
     </main>
     <footer>
-      <div class="lable"></div>
-      <div class="footer-content"></div>
-      <div class="footer-bottom-bar"></div>
+      <footer-box/>
     </footer>
   </div>
 </template>
@@ -17,12 +15,14 @@
 <script>
 import HeaderBox from './components/HeaderBox.vue'
 import MainBox from './components/MainBox.vue'
+import FooterBox from './components/FooterBox.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderBox,
     MainBox,
+    FooterBox
 
   },
   data () {
@@ -311,7 +311,7 @@ export default {
 
 <style lang="scss">
 @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Shadows+Into+Light&display=swap');
 @import 'style/main.scss';
 
 </style>
