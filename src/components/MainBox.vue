@@ -27,7 +27,18 @@
           </div>
         </div>
       </div>
-      <div class="category"></div>
+      <div class="category flex-just-center">
+        <div class="row">
+          <div><i class="fas fa-angle-left"></i></div>
+          <button>GADGETS</button>
+          <button>PHOTOGRAPHY</button>
+          <button>LIFESTYLE</button>
+          <button>FASHION</button>
+          <button>RECIPES</button>
+          <button>TRAVEL</button>
+          <div><i class="fas fa-angle-right"></i></div>
+        </div>
+      </div>
       <div class="latest-socials"></div>
       <div class="main-content"></div>
     </div>
@@ -52,6 +63,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/style/variables.scss';
 .jumbotron{
   background-color: #d6d6d6;
   .card{
@@ -72,6 +84,29 @@ export default {
   h2{
     margin: 30px 0px;
     color: #333;
+  }
+}
+.category{
+  background-color: $main-blue-color;
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    i{
+      font-size: 30px;
+      color: #333;
+    }
+    button{
+      border: 0px;
+      background-color: #404040;
+      color: $light-color;
+      font-weight: 900;
+      font-size: 20px;
+      width: calc(100% / 6 - 30px);
+      height: 70px;
+      margin: 50px 15px;
+      cursor: pointer;
+    }
   }
 }
 </style>
