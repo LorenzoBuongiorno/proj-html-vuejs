@@ -10,7 +10,8 @@
                 <div class="row">
                     <div class="footer-box">
                         <h2>ABOUT THE BLOG</h2>
-                        <p class="about-blog">{{blogInfo}}</p>
+                        <p class="about-blog">{{blogInfo.content}}</p>
+                        <a :href="blogInfo.url">VIEW MORE ></a>
                     </div>
                     <div class="footer-box"></div>
                     <div class="footer-box"></div>
@@ -23,7 +24,7 @@
 <script>
 export default {
     props: {
-        blogInfo: String,
+        blogInfo: Object,
         recentPosts: Array,
         recentComments: Array,
          categories: Array
@@ -69,11 +70,16 @@ export default {
             overflow: hidden;
             text-overflow: ellipsis;
             color: #888;
+            margin-bottom: 20px ;
         }
         h2{
-               margin-bottom: 20px;
+               margin: 20px 0px;
                color: $light-color;
-           }
+        }
+        a{
+          color: $light-color;
+          font-weight: 900;
+        }
     }
 
 </style>
