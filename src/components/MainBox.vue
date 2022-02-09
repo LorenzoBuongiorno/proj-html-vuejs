@@ -71,6 +71,18 @@
               <img src="/images/30077195_2066750973610181_3733150062893596672_n.jpg" alt="">
               <img src="/images/29415304_166583630713703_1032667922171953152_n.jpg" alt="">
             </div>
+            <h2>TAGS</h2>
+            <ul class="tags">
+              <li>DESIGN</li>
+              <li>BRANDS</li>
+              <li>VIDEO</li>
+              <li>BUSINESS</li>
+              <li>TRAVEL</li>
+            </ul>
+            <h2>FIND US ON FACEBOOK</h2>
+            <span class="facebook-link">
+              <a href="#">Okler Themes</a>
+            </span>
           </div>
         </div>
       </div>
@@ -178,6 +190,26 @@ export default {
     flex-wrap: wrap;
     img{
       width: calc(100% / 3);
+    }
+  }
+  .tags{
+    display: flex;
+    justify-content: space-between;
+    li{
+      color: #fff;
+      font-weight: 900;
+      font-size: 14px;
+      padding: 5px 10px;
+      border-radius: 20px;
+      background-color: #333;
+    }
+  }
+  .facebook-link{
+    padding: 20px;
+    font-size: 17px;
+    border-left: 7px solid #00000008 ;
+    a{
+      color: $main-blue-color;
     }
   }
 }
