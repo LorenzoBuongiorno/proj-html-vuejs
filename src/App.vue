@@ -329,12 +329,14 @@ export default {
         {
           author: 'John Doe',
           post_title_comment: 'lorem ipson dolor sit amet.',
-          date: '12:55 AM Dec 19th'
+          date: '12:55 AM Dec 19th',
+          url:'#'
         },
         {
           author: 'John Doe',
           post_title_comment: 'lorem ipson dolor sit amet.',
-          date: '12:55 AM Dec 19th'
+          date: '12:55 AM Dec 19th',
+          url:'#'
         },
         
       ],

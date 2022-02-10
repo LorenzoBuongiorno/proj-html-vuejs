@@ -15,13 +15,13 @@
                     </div>
                     <div class="footer-box">
                         <h2>RECENT POSTS</h2>
-                        <ul class="recent-post">
+                        <ul class="recent">
                            <li v-for="(recentpost,i) in recentPosts" :key="i" :class="i < 2 ? '' : 'empty'">
-                               <div v-if="i < 2" class="recent-post-card">
+                               <div v-if="i < 2" class="recent-card">
                                     <img :src="'images/' + recentpost.post_image" alt="">
                                     <div>
                                         <p>{{recentpost.title}}</p>
-                                        <span>{{recentpost.date}}</span>
+                                        <span class="date">{{recentpost.date}}</span>
                                     </div>
                                </div>
                             </li> 
@@ -29,7 +29,22 @@
                     </div>
                     <div class="footer-box">
                         <h2>RECENT COMMENTS</h2>
-
+                        <ul class="recent">
+                           <li v-for="(recentcomment,i) in recentComments" :key="i" :class="i < 2 ? '' : 'empty'">
+                               <div v-if="i < 2">
+                                    <div class="recent-comments">
+                                        <span class="author">
+                                            {{recentcomment.author}}
+                                        </span>
+                                        <span> commented on </span>
+                                        <a :href="recentcomment.url" class="comment-title">
+                                        {{recentcomment.post_title_comment}}
+                                        </a>
+                                    </div>
+                                    <span class="date">{{recentcomment.date}}</span>
+                               </div>
+                            </li> 
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -96,11 +111,11 @@ export default {
           color: $light-color;
           font-weight: 900;
         }
-        .recent-post{
+        .recent{
             li{
-                .recent-post-card{
+                margin: 20px 0px;
+                .recent-card{
                     display: flex;
-                    margin: 20px 0px;
                     img{
                         border-radius: 50%;
                         margin-right: 20px;
@@ -111,9 +126,24 @@ export default {
                         color: #fff;
                         margin-bottom: 10px;
                     }
-                    span{
-                        color: #888;
-                    }
+                }
+                .date{
+                    color: #888;
+                }
+            }
+            .recent-comments{
+                margin-bottom: 10px;
+                span{
+                    color: #fff;
+                    font-size: 17px;
+                    line-height: 30px;
+                    
+                }
+                .author{
+                    font-weight: 900;
+                }
+                .comment-title{
+                    color: $main-blue-color;
                 }
             }
 
