@@ -10,12 +10,12 @@
             </div>
         </div>
         <h2>FEATURED AUTHOR</h2>
-        <div class="featured-card-author">
+        <div class="featured-card-author d-flex align-center">
             <div class="author-pic">
                 <img class="w-100" :src="'/images/avatar.jpg'" alt="">
             </div>
             <div>
-                <div class="author">{{posts[12].author}}</div>
+                <div class="author mb-1">{{posts[12].author}}</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, consequatur ipsa adipisci possimus vitae eveniet id commodi, laudantium excepturi unde eligendi ipsum?</p>
             </div>
         </div>
@@ -49,32 +49,28 @@ export default {
             text-transform: uppercase;
             font-weight: 900;
             padding: 10px;
-            font-size: 15px;
+            font-size: $default-small-font-size;
             background-color: $main-blue-color;
         }
         .title{
             color: $light-color;
             font-weight: 900;
-            font-size: 25px;
-            margin-top: 20px;
+            font-size: $default-title-font-size;
         }
     }
 }
 .featured-card-author{
-    display: flex;
-    align-items: center;
     .author-pic{
         width: 900px;
         padding: 20px;
     }
     .author{
         font-weight: 900;
-        font-size: 20px;
-        color: #333;
-        margin-bottom: 10px;
+        font-size: $default-font-size;
+        color: $dark-grey-color;
     }
     p{
-        color: #888;
+        color: $grey-color;
     }
 }
 </style>

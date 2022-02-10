@@ -53,20 +53,20 @@ export default {
         text-transform: uppercase;
         font-weight: 900;
         padding: 10px;
-        font-size: 15px;
+        font-size: $default-small-font-size;
         background-color: $main-blue-color;
     }
     .title{
         color: $light-color;
         font-weight: 900;
-        font-size: 25px;
+        font-size: $default-title-font-size;
         margin-top: 20px;
     }
     .description{
         margin-top: 10px;
-        font-size: 20px;
+        font-size: $default-font-size;
         line-height: 30px;
-        color: #888;
+        color: $grey-color;
         font-weight: 900;
         display: none;
     }

@@ -1,0 +1,97 @@
+.jumbotron{
+    background-color: #d6d6d6;
+    .card{
+      width: calc(100% / 3 - 30px);
+      margin: 15px;
+      position: relative;
+    }
+    .row{
+      margin: 40px 0px;
+    }
+  }
+  .content-preview{
+    .jumbo-column{
+      width: calc(100% / 3 - 20px);
+      margin: 0px 10px;
+    }
+    h2{
+      margin: 30px 0px;
+      color: $dark-grey-color;
+    }
+  }
+  .category{
+    background-color: $main-blue-color;
+  
+      i{
+        font-size: $default-font-size;
+        color: $dark-grey-color;
+      }
+      button{
+        border: 0px;
+        background-color: #404040;
+        color: $light-color;
+        font-weight: 900;
+        font-size: $default-font-size;
+        width: calc(100% / 6 - 30px);
+        height: 70px;
+        margin: 50px 15px;
+        cursor: pointer;
+        &:hover{
+          transform: scale(110%);
+        }
+      }
+    
+  }
+  .main-content{
+    width: 70%;
+  }
+  .latest-socials{
+    padding: 15px;
+    width: 30%;
+    h2{
+      color: $dark-grey-color;
+      margin: 20px 0px;
+    }
+    .twitter-comment{
+      padding-top: 30px;
+      .fa-twitter{
+        font-size: $default-font-size;
+        color: $dark-grey-color;
+      }
+      div{
+        margin-left: 15px;
+        p{
+          color: $grey-color;
+          font-size: $default-font-size;
+        }
+        span{
+          color: $main-blue-color;
+        }
+      }
+    }
+  
+    .instagram-post{
+      img{
+        width: calc(100% / 3);
+      }
+    }
+    .tags{
+      li{
+        color: $light-color;
+        font-weight: 900;
+        font-size: $default-small-font-size;
+        padding: 5px 10px;
+        border-radius: 20px;
+        background-color: $dark-grey-color;
+      }
+    }
+    .facebook-link{
+      padding: 20px;
+      font-size: $default-font-size;
+      border-left: 7px solid #00000008 ;
+      a{
+        color: $main-blue-color;
+      }
+    }
+  }
+  

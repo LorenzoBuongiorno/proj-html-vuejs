@@ -1,26 +1,26 @@
 <template>
     <div class="main-footer">
-        <div class="label flex-just-center">
+        <div class="label d-flex just-center">
             <div class="row">
                 <span class="angle"></span>
                 <span class="get-in-touch">Get in Touch</span>
             </div>
         </div>
-            <div class="footer-content flex-just-center">
+            <div class="footer-content d-flex just-center">
                 <div class="row">
                     <div class="footer-box">
                         <h2>ABOUT THE BLOG</h2>
-                        <p class="about-blog">{{blogInfo.content}}</p>
+                        <p class="about-blog mb-2">{{blogInfo.content}}</p>
                         <a :href="blogInfo.url">VIEW MORE ></a>
                     </div>
                     <div class="footer-box">
                         <h2>RECENT POSTS</h2>
                         <ul class="recent">
                            <li v-for="(recentpost,i) in recentPosts" :key="i" :class="i < 2 ? '' : 'empty'">
-                               <div v-if="i < 2" class="recent-card">
+                               <div v-if="i < 2" class="recent-card d-flex">
                                     <img :src="'images/' + recentpost.post_image" alt="">
                                     <div>
-                                        <p>{{recentpost.title}}</p>
+                                        <p class="mb-1">{{recentpost.title}}</p>
                                         <span class="date">{{recentpost.date}}</span>
                                     </div>
                                </div>
@@ -32,7 +32,7 @@
                         <ul class="recent">
                            <li v-for="(recentcomment,i) in recentComments" :key="i" :class="i < 2 ? '' : 'empty'">
                                <div v-if="i < 2">
-                                    <div class="recent-comments">
+                                    <div class="recent-comments mb-1">
                                         <span class="author">
                                             {{recentcomment.author}}
                                         </span>
@@ -56,13 +56,13 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom-bar flex-just-center">
+            <div class="footer-bottom-bar d-flex just-center">
                 <div class="row space-between">
-                    <div class="copyright">
+                    <div class="copyright d-flex align-center">
                         <img src="images/logo-footer.png" alt="">
                         <span>&copy; Copyright 2020. All Rights Reserved.</span>
                     </div>
-                    <div class="copyright">
+                    <div class="copyright d-flex align-center">
                         <a href="#">> FAQ's</a>
                         <a href="#">> Sitemap</a>
                         <a href="#">> Contact Us</a>
@@ -85,115 +85,6 @@ export default {
 
 <style lang="scss">
 @import '@/style/variables.scss';
-
-    
-    .label{
-        margin-top: 50px;
-          background-color: #212529;
-          background: linear-gradient(0deg,  rgba(33,37,41,1) 50%, rgba(255,255,255,1) 50%);
-          width: 100%;
-          .angle{
-              width: 0; 
-              height: 0; 
-              border-left: 15px solid transparent;
-              border-right: 0px solid transparent;
-              border-bottom: 37px solid #0074ad;
-          }
-        .get-in-touch{
-            font-family: 'Shadows Into Light', cursive;
-            color: #fff;
-            font-size: 33px;
-            padding: 10px 20px;
-            background-color: $main-blue-color;
-            display: inline-block;
-        }
-    }
-    .footer-content{
-        padding: 30px 0px;
-        background-color: #212529;
-        .footer-box{
-            width: calc(100% / 4 - 30px);
-            margin: 0px 15px;
-        }
-        .about-blog{
-            height: 150px;
-            line-height: 30px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            color: #888;
-            margin-bottom: 20px ;
-        }
-        h2{
-               margin: 20px 0px;
-               color: $light-color;
-        }
-        a{
-          color: $light-color;
-          font-weight: 900;
-        }
-        .recent{
-            li{
-                margin: 20px 0px;
-                .recent-card{
-                    display: flex;
-                    img{
-                        border-radius: 50%;
-                        margin-right: 20px;
-                    }
-                    p{
-                        font-size: 18px;
-                        font-weight: 900;
-                        color: #fff;
-                        margin-bottom: 10px;
-                    }
-                }
-                .date{
-                    color: #888;
-                }
-            }
-            .recent-comments{
-                margin-bottom: 10px;
-                span{
-                    color: #fff;
-                    font-size: 17px;
-                    line-height: 30px;
-                    
-                }
-                .author{
-                    font-weight: 900;
-                }
-                .comment-title{
-                    color: $main-blue-color;
-                }
-            }
-        }
-        .category-tag{
-            display: inline-block;
-            padding: 10px;
-            background-color: #000;
-            border-radius: 5px;
-            color: #fff;
-            font-size: 15px;
-            font-weight: 900;
-            margin: 8px 10px;
-        }
-    }
-    .footer-bottom-bar{
-        background-color: #1c2023;
-    }
-    .copyright{
-        display: flex;
-        align-items: center;
-        color: #888;
-        img{
-            width: 180px;
-            padding: 20px;
-            opacity: 50%;
-        }
-        a{
-            color: #888;
-            margin-right: 10px;
-        }
-    }
+@import '@/style/footerBox.scss';
 
 </style>

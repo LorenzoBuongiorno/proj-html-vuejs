@@ -1,5 +1,5 @@
 <template>
-    <div class="card-row">
+    <div class="card-row d-flex">
         <div class="image-small">
             <img class="w-100" :src="'/images/blog-' + postSmall.bg_image + '.jpg'" alt="">
         </div>
@@ -20,8 +20,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/style/variables.scss';
 .card-row{
-    display: flex;
     align-items: center;
     padding: 15px 0px;
     border-bottom: 2px solid #eee;
@@ -30,12 +30,12 @@ export default {
         margin-right: 15px;
     }
     .title{
-        font-size: 18px;
-        color: #333;
+        font-size: $default-font-size;
+        color: $dark-grey-color;
     }
     .date{
         font-size: 13px;
-        color: #888;
+        color: $grey-color;
         margin-top: 5px;
     }
 }

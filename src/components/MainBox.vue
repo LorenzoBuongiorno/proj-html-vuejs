@@ -1,13 +1,13 @@
 <template>
     <div>
-      <div class="jumbotron flex-just-center">
-        <div class="row">
+      <div class="jumbotron d-flex just-center">
+        <div class="row flex-wrap">
           <div class="card" v-for="(post,i) in posts" :key="i" :class="i < 6 ? '' : 'empty'">
             <jumbotron-card v-if="i < 6" :post="post"/>
           </div>
         </div>
       </div>
-      <div class="content-preview flex-just-center">
+      <div class="content-preview d-flex just-center">
         <div class="row">
           <div class="jumbo-column popular-posts">
             <h2>POPULAR POSTS</h2>
@@ -27,8 +27,8 @@
           </div>
         </div>
       </div>
-      <div class="category flex-just-center">
-        <div class="row">
+      <div class="category d-flex just-center">
+        <div class="row space-between align-center">
           <div><i class="fas fa-angle-left"></i></div>
           <button>GADGETS</button>
           <button>PHOTOGRAPHY</button>
@@ -39,7 +39,7 @@
           <div><i class="fas fa-angle-right"></i></div>
         </div>
       </div>
-      <div class="central-page flex-just-center">
+      <div class="central-page d-flex just-center">
         <div class="row">
           <div class="main-content">
             <post-card :posts="posts"/>
@@ -47,23 +47,23 @@
           <div class="latest-socials">
             <h2>LATEST FROM TWITTER</h2>
             <!-- COMMENT 1 -->
-            <div class="twitter-comment flex-just-center">
+            <div class="twitter-comment d-flex just-center">
               <i class="fab fa-twitter"></i>
               <div>
-                <p>If you have any suggestion for the next update, let us know.</p>
+                <p class="mb-1">If you have any suggestion for the next update, let us know.</p>
                 <span>01:05 PM Sep 18th</span>
               </div>
             </div>
             <!-- COMMENT 2 -->
-            <div class="twitter-comment flex-just-center">
+            <div class="twitter-comment d-flex just-center">
               <i class="fab fa-twitter"></i>
               <div>
-                <p>We have just updated Porto Admin. Check the changelog for more information.</p>
+                <p class="mb-1">We have just updated Porto Admin. Check the changelog for more information.</p>
                 <span>01:04 PM Sep 18th</span>
               </div>
             </div>
             <h2>PHOTOS FROM INSTAGRAM</h2>
-            <div class="instagram-post">
+            <div class="instagram-post d-flex flex-wrap">
               <img src="/images/29739607_2020680068220520_4509928046932787200_n.jpg" alt="">
               <img src="/images/30087804_253872848488989_8792603541668626432_n.jpg" alt="">
               <img src="/images/29415620_196477127626244_3250318472361541632_n.jpg" alt="">
@@ -72,7 +72,7 @@
               <img src="/images/29415304_166583630713703_1032667922171953152_n.jpg" alt="">
             </div>
             <h2>TAGS</h2>
-            <ul class="tags">
+            <ul class="tags d-flex space-between">
               <li>DESIGN</li>
               <li>BRANDS</li>
               <li>VIDEO</li>
@@ -111,112 +111,5 @@ export default {
 
 <style lang="scss">
 @import '@/style/variables.scss';
-.jumbotron{
-  background-color: #d6d6d6;
-  .card{
-    width: calc(100% / 3 - 30px);
-    margin: 15px;
-    position: relative;
-  }
-  .row{
-    margin: 40px 0px;
-    flex-wrap: wrap;
-  }
-}
-.content-preview{
-  .jumbo-column{
-    width: calc(100% / 3 - 20px);
-    margin: 0px 10px;
-  }
-  h2{
-    margin: 30px 0px;
-    color: #333;
-  }
-}
-.category{
-  background-color: $main-blue-color;
-  .row{
-    justify-content: space-between;
-    align-items: center;
-    i{
-      font-size: 30px;
-      color: #333;
-    }
-    button{
-      border: 0px;
-      background-color: #404040;
-      color: $light-color;
-      font-weight: 900;
-      font-size: 20px;
-      width: calc(100% / 6 - 30px);
-      height: 70px;
-      margin: 50px 15px;
-      cursor: pointer;
-      &:hover{
-        transform: scale(110%);
-      }
-    }
-  }
-  
-}
-.main-content{
-  width: 70%;
-}
-.latest-socials{
-  padding: 15px;
-  width: 30%;
-  h2{
-    color: #333;
-    margin: 20px 0px;
-  }
-  .twitter-comment{
-    padding-top: 30px;
-    .fa-twitter{
-      font-size: 30px;
-      color: #333;
-    }
-    div{
-      margin-left: 15px;
-      p{
-        color: #888;
-        margin-bottom: 15px;
-        font-size: 18px;
-      }
-      span{
-        color: $main-blue-color;
-      }
-    }
-  }
-
-  .instagram-post{
-    display: flex;
-    flex-wrap: wrap;
-    img{
-      width: calc(100% / 3);
-    }
-  }
-  .tags{
-    display: flex;
-    justify-content: space-between;
-    li{
-      color: #fff;
-      font-weight: 900;
-      font-size: 14px;
-      padding: 5px 10px;
-      border-radius: 20px;
-      background-color: #333;
-    }
-  }
-  .facebook-link{
-    padding: 20px;
-    font-size: 17px;
-    border-left: 7px solid #00000008 ;
-    a{
-      color: $main-blue-color;
-    }
-  }
-}
-
-
-
+@import '@/style/mainBox.scss';
 </style>

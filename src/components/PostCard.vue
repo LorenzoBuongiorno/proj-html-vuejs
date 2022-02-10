@@ -1,20 +1,20 @@
 <template>
     <div>
-        <div class="post flex-just-center">
+        <div class="post d-flex just-center">
             <div>
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[17].bg_image + '.jpg'" alt="">
                 </div>
-                <div class="description">
+                <div class="description d-flex">
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
                     <div class="info">
-                        <h2>{{posts[17].title}}</h2>
+                        <h2 class="mb-2">{{posts[17].title}}</h2>
                         <p class="text">{{posts[17].content}}</p>
                         <span class="dots">[...]</span>
-                        <div class="post-data">
+                        <div class="space-between d-flex">
                             <div>
                                 <span><i class="far fa-user"></i><a href="#">{{posts[17].author}}</a></span>
                                 <span>
@@ -33,21 +33,21 @@
             </div>
         </div>
 
-        <div class="post flex-just-center">
+        <div class="post d-flex just-center">
             <div>
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[6].bg_image + ' (1).jpg'" alt="">
                 </div>
-                <div class="description">
+                <div class="description d-flex">
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
                     <div class="info">
-                        <h2>{{posts[6].title}}</h2>
+                        <h2 class="mb-2">{{posts[6].title}}</h2>
                         <p class="text">{{posts[6].content}}</p>
                         <span class="dots">[...]</span>
-                        <div class="post-data">
+                        <div class="space-between d-flex">
                             <div>
                                 <span><i class="far fa-user"></i><a href="#">{{posts[6].author}}</a></span>
                                 <span>
@@ -66,21 +66,21 @@
             </div>
         </div>
 
-        <div class="post flex-just-center">
+        <div class="post d-flex just-center">
             <div>
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[7].bg_image + ' (1).jpg'" alt="">
                 </div>
-                <div class="description">
+                <div class="description d-flex">
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
                     <div class="info">
-                        <h2>{{posts[7].title}}</h2>
+                        <h2 class="mb-2">{{posts[7].title}}</h2>
                         <p class="text">{{posts[7].content}}</p>
                         <span class="dots">[...]</span>
-                        <div class="post-data">
+                        <div class="space-between d-flex">
                             <div>
                                 <span><i class="far fa-user"></i><a href="#">{{posts[7].author}}</a></span>
                                 <span>
@@ -99,21 +99,21 @@
             </div>
         </div>
 
-        <div class="post flex-just-center">
+        <div class="post d-flex just-center">
             <div>
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[9].bg_image + ' (1).jpg'" alt="">
                 </div>
-                <div class="description">
+                <div class="description d-flex">
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
                     <div class="info">
-                        <h2>{{posts[17].title}}</h2>
+                        <h2 class="mb-2">{{posts[17].title}}</h2>
                         <p class="text">{{posts[9].content}}</p>
                         <span class="dots">[...]</span>
-                        <div class="post-data">
+                        <div class="space-between d-flex">
                             <div>
                                 <span><i class="far fa-user"></i><a href="#">{{posts[9].author}}</a></span>
                                 <span>
@@ -132,21 +132,21 @@
             </div>
         </div>
 
-        <div class="post flex-just-center">
+        <div class="post d-flex just-center">
             <div>
-                <div class="main-image-array">
+                <div class="main-image-array d-flex flex-wrap">
                     <img v-for="(img,i) in posts[16].bg_image" :key="i" :src="'/images/blog-' + img + '.jpg'" alt="">
                 </div>
-                <div class="description">
+                <div class="description d-flex">
                     <div class="date">
                         <div class="date-number">8</div>
                         <div class="date-month">jan</div>
                     </div>
                     <div class="info">
-                        <h2>{{posts[16].title}}</h2>
+                        <h2 class="mb-2">{{posts[16].title}}</h2>
                         <p class="text">{{posts[16].content}}</p>
                         <span class="dots">[...]</span>
-                        <div class="post-data">
+                        <div class="space-between d-flex">
                             <div>
                                 <span><i class="far fa-user"></i><a href="#">{{posts[16].author}}</a></span>
                                 <span>
@@ -184,7 +184,6 @@ export default {
         margin: 20px 0px;
     }
     .description{
-       display: flex;
        .date{
            text-align: center;
            width: 50px;
@@ -198,32 +197,29 @@ export default {
                color: $light-color;
                text-transform: uppercase;
                font-weight: 900;
-               font-size: 15px;
+               font-size: $default-small-font-size;
            }
        }
        .info{
            width: calc(100% - 50px);
            padding: 0px 20px;
            line-height: 25px;
-           .post-data{
-               display: flex;
-               justify-content: space-between;
-           }
            h2{
-               margin-bottom: 20px;
-               color: #333;
+               color: $dark-grey-color;
            }
            .text{
                height: 70px;
-               color: #888;
+               color: $grey-color;
                 overflow: hidden;
                 text-overflow: ellipsis;
+                font-size: $default-font-size;
            }
            .dots{
-                    color: #888;
+                color: $grey-color;
+                font-size: $default-font-size;
            }
             i{
-                color: #888;
+                color: $grey-color;
                 margin-right: 10px;
             }
             a{
@@ -231,19 +227,17 @@ export default {
                 margin-right: 5px;
             }
             button{
-                background-color: #fff;
-                border: 2px solid #888;
+                background-color: $light-color;
+                border: 2px solid $grey-color;
                 padding: 7px;
                 border-radius: 8px;
-                color: #888;
+                color: $grey-color;
                 cursor: pointer;
             }
        }
     }
     .main-image-array{
         margin: 20px 0px;
-        display: flex;
-        flex-wrap: wrap;
         img{
             width: calc(100% / 3);
         }

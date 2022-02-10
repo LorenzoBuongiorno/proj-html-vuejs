@@ -1,23 +1,23 @@
 <template>
     <div>
-        <div class="fixed-bar flex-just-center w-100">
+        <div class="fixed-bar d-flex just-center w-100 align-center">
             <div class="row">
                 <span>Everything about Lifestyle, Travel and Gadgets!</span>
-                <ul class="flex-just-center">
+                <ul class="d-flex just-center">
                     <li v-for="(element,i) in nav" :key="i"><a :href="element.url" :class="i < 4 ? '' : 'empty'">{{element.section}}</a></li>
                 </ul>
             </div>
         </div>
-        <div class="logo flex-just-center">
+        <div class="logo d-flex just-center">
             <div class="row">
                 <a href="#">
                     <img src="/images/logo-default-slim.png" alt="">
                 </a>
             </div>
         </div>
-        <div class="navbar flex-just-center">
-            <div class="row">
-                <ul class="flex-just-center">
+        <div class="navbar d-flex just-center">
+            <div class="row space-between align-center">
+                <ul class="d-flex just-center">
                     <li v-for="(element,i) in nav" :key="i"><a :href="element.url" :class="i > 3 ? '' : 'empty'">{{element.section}}</a></li>
                 </ul>
                 <div>
@@ -43,9 +43,8 @@ export default {
     height: 60px;
     background-color: $main-blue-color;
     font-weight: 900;
-    align-items: center;
     span{
-        font-size: 14px;
+        font-size: $default-small-font-size;
         margin: 0px 15px;
         font-weight: 300;
         color: $light-color;
@@ -68,7 +67,7 @@ export default {
     padding: 20px 0px;
     border-top: 2px solid #eee;
     a{
-        color: #333;
+        color: $dark-grey-color;
         margin-right: 30px;
         font-weight: 900;
         &:hover{
@@ -82,13 +81,9 @@ export default {
     }
     button{
         border: 0px;
-        background-color: #fff;
-        font-size: 18px;
+        background-color: $light-color;
+        font-size: $default-font-size;
         cursor: pointer;
-    }
-    .row{
-        justify-content: space-between;
-            align-items: center;
     }
 }
 </style>

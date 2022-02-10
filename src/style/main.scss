@@ -1,3 +1,5 @@
+@import '@/style/variables.scss';
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,18 +15,29 @@ ul{
     list-style-type: none;
 }
 
-.flex-just-center{
+.d-flex{
     display: flex;
+}
+
+.just-center{
     justify-content: center;
 }
 
 .row{
-    width: 1600px;
+    width: $content-page-width;
     display: flex;
 }
 
 .space-between{
     justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .w-100{
@@ -37,4 +50,12 @@ ul{
 
 img{
     display:block;
+}
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.mb-2{
+    margin-bottom: 20px;
 }
