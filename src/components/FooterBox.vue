@@ -1,5 +1,6 @@
 <template>
     <div class="main-footer">
+        <!-- GET IN TOUCH LABEL -->
         <div class="label d-flex just-center">
             <div class="row">
                 <span class="angle"></span>
@@ -8,12 +9,14 @@
         </div>
             <div class="footer-content d-flex just-center">
                 <div class="row">
+                    <!-- ABOUT THE BLOG -->
                     <div class="footer-box">
                         <h2>ABOUT THE BLOG</h2>
                         <p class="about-blog mb-2">{{blogInfo.content}}</p>
                         <a :href="blogInfo.url">VIEW MORE ></a>
                     </div>
                     <div class="footer-box">
+                        <!-- RECENT POSTS -->
                         <h2>RECENT POSTS</h2>
                         <ul class="recent">
                            <li v-for="(recentpost,i) in recentPosts" :key="i" :class="i < 2 ? '' : 'empty'">
@@ -28,6 +31,7 @@
                         </ul>
                     </div>
                     <div class="footer-box">
+                        <!-- RECENT COMMENTS -->
                         <h2>RECENT COMMENTS</h2>
                         <ul class="recent">
                            <li v-for="(recentcomment,i) in recentComments" :key="i" :class="i < 2 ? '' : 'empty'">
@@ -47,6 +51,7 @@
                         </ul>
                     </div>
                     <div class="footer-box">
+                        <!-- CATEGORIES -->
                         <h2>CATEGORIES</h2>
                         <ul>
                             <li class="category-tag" v-for="(category,i) in categories" :key="i">
@@ -56,6 +61,7 @@
                     </div>
                 </div>
             </div>
+            <!-- FOOTER BOTTOM BAR -->
             <div class="footer-bottom-bar d-flex just-center">
                 <div class="row space-between">
                     <div class="copyright d-flex align-center">

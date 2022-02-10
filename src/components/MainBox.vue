@@ -1,5 +1,6 @@
 <template>
     <div>
+      <!-- 6 JUMBO FRONT CARD -->
       <div class="jumbotron d-flex just-center">
         <div class="row flex-wrap">
           <div class="card" v-for="(post,i) in posts" :key="i" :class="i < 6 ? '' : 'empty'">
@@ -7,26 +8,31 @@
           </div>
         </div>
       </div>
+      <!-- BOTTOM JUMBO SECTION -->
       <div class="content-preview d-flex just-center">
         <div class="row">
+          <!-- POPULAR POSTS -->
           <div class="jumbo-column">
             <h2>POPULAR POSTS</h2>
             <div class="card-small" v-for="(postSmall,i) in posts" :key="i" :class="i > 5 && i < 11 ? '' : 'empty'">
               <small-card v-if="i > 5 && i < 11" :postSmall="postSmall"/>
             </div>
           </div>
+          <!-- RECENT POSTS -->
           <div class="jumbo-column">
             <h2>RECENT POSTS</h2>
               <div class="card-small" v-for="(postSmall,i) in posts" :key="i" :class="i > 10 && i < 16 ? '' : 'empty'">
               <small-card v-if="i > 10 && i < 16" :postSmall="postSmall"/>
             </div>
           </div>
+          <!-- FEATURED POST -->
           <div class="jumbo-column">
             <featured-card :posts="posts"/>
           
           </div>
         </div>
       </div>
+      <!-- CATEGORY SLIDER -->
       <div class="category d-flex just-center">
         <div class="row space-between align-center">
           <div><i class="fas fa-angle-left"></i></div>
@@ -41,10 +47,13 @@
       </div>
       <div class="central-page d-flex just-center">
         <div class="row">
+          <!-- MAIN POSTS -->
           <div class="main-content">
             <post-card :posts="posts"/>
           </div>
+      <!-- SOCIAL MEDIA RECENT POSTS -->
           <div class="latest-socials">
+            <!-- TWITTER -->
             <h2>LATEST FROM TWITTER</h2>
             <!-- COMMENT 1 -->
             <div class="twitter-comment d-flex just-center">
@@ -62,6 +71,7 @@
                 <span>01:04 PM Sep 18th</span>
               </div>
             </div>
+            <!-- INSTAGRAM -->
             <h2>PHOTOS FROM INSTAGRAM</h2>
             <div class="instagram-post d-flex flex-wrap">
               <img src="/images/29739607_2020680068220520_4509928046932787200_n.jpg" alt="">
@@ -71,6 +81,7 @@
               <img src="/images/30077195_2066750973610181_3733150062893596672_n.jpg" alt="">
               <img src="/images/29415304_166583630713703_1032667922171953152_n.jpg" alt="">
             </div>
+            <!-- TAGS -->
             <h2>TAGS</h2>
             <ul class="tags d-flex space-between">
               <li>DESIGN</li>
@@ -79,6 +90,7 @@
               <li>BUSINESS</li>
               <li>TRAVEL</li>
             </ul>
+            <!-- FACEBOOK -->
             <h2>FIND US ON FACEBOOK</h2>
             <span class="facebook-link">
               <a href="#">Okler Themes</a>

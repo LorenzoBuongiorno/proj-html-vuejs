@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- TOP BLUE BAR (SIGN IN) -->
         <div class="fixed-bar d-flex just-center w-100 align-center">
             <div class="row">
                 <span>Everything about Lifestyle, Travel and Gadgets!</span>
@@ -8,6 +9,7 @@
                 </ul>
             </div>
         </div>
+        <!-- LOGO -->
         <div class="logo d-flex just-center">
             <div class="row">
                 <a href="#">
@@ -15,11 +17,13 @@
                 </a>
             </div>
         </div>
+        <!-- NAVBAR -->
         <div class="navbar d-flex just-center">
             <div class="row space-between align-center">
                 <ul class="d-flex just-center">
                     <li v-for="(element,i) in nav" :key="i"><a :href="element.url" :class="i > 3 ? '' : 'empty'">{{element.section}}</a></li>
                 </ul>
+                <!-- SEARCH BUTTON -->
                 <div>
                     <input type="text" placeholder="search">
                     <button><i class="fas fa-search"></i></button>

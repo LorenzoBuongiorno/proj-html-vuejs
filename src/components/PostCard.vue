@@ -2,30 +2,39 @@
     <div>
         <div class="post d-flex just-center">
             <div>
+                <!-- BACKGROUND IMAGE -->
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[17].bg_image + '.jpg'" alt="">
                 </div>
                 <div class="description d-flex">
+                    <!-- DATE -->
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
+                    <!-- INFO -->
                     <div class="info">
+                        <!-- TITLE -->
                         <h2 class="mb-2">{{posts[17].title}}</h2>
+                        <!-- CONTENT -->
                         <p class="text">{{posts[17].content}}</p>
                         <span class="dots">[...]</span>
                         <div class="space-between d-flex">
                             <div>
+                                <!-- AUTHOR -->
                                 <span><i class="far fa-user"></i><a href="#">{{posts[17].author}}</a></span>
                                 <span>
                                     <i class="far fa-folder"></i>
+                                    <!-- CATEGORY (ONLY 2) -->
                                     <a href="#" v-for="(genre,i) in posts[17].category" :key="i">
                                     <span v-if="i + 1 == posts[17].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
+                                    <!-- COMMENTS -->
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
+                            <!-- READ MORE BUTTON -->
                             <a :href="posts[17].url"><button> READ MORE</button></a>
                         </div>
                     </div>
@@ -35,30 +44,39 @@
 
         <div class="post d-flex just-center">
             <div>
+                <!-- BACKGROUND IMAGE -->
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[6].bg_image + ' (1).jpg'" alt="">
                 </div>
                 <div class="description d-flex">
+                    <!-- DATE -->
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
+                    <!-- INFO -->
                     <div class="info">
+                        <!-- TITLE -->
                         <h2 class="mb-2">{{posts[6].title}}</h2>
+                        <!-- CONTENT -->
                         <p class="text">{{posts[6].content}}</p>
                         <span class="dots">[...]</span>
                         <div class="space-between d-flex">
                             <div>
+                                <!-- AUTHOR -->
                                 <span><i class="far fa-user"></i><a href="#">{{posts[6].author}}</a></span>
                                 <span>
                                     <i class="far fa-folder"></i>
+                                    <!-- CATEGORY (ONLY 2) -->
                                     <a href="#" v-for="(genre,i) in posts[6].category" :key="i">
                                     <span v-if="i + 1 == posts[6].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
+                                    <!-- COMMENTS -->
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
+                            <!-- READ MORE BUTTON -->
                             <a :href="posts[6].url"><button> READ MORE</button></a>
                         </div>
                     </div>
@@ -68,30 +86,39 @@
 
         <div class="post d-flex just-center">
             <div>
+                <!-- BACKGROUND IMAGE -->
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[7].bg_image + ' (1).jpg'" alt="">
                 </div>
                 <div class="description d-flex">
+                    <!-- DATE -->
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
+                    <!-- INFO -->
                     <div class="info">
+                        <!-- TITLE -->
                         <h2 class="mb-2">{{posts[7].title}}</h2>
+                        <!-- CONTENT -->
                         <p class="text">{{posts[7].content}}</p>
                         <span class="dots">[...]</span>
                         <div class="space-between d-flex">
                             <div>
+                                <!-- AUTHOR -->
                                 <span><i class="far fa-user"></i><a href="#">{{posts[7].author}}</a></span>
                                 <span>
                                     <i class="far fa-folder"></i>
+                                    <!-- CATEGORY (ONLY 2) -->
                                     <a href="#" v-for="(genre,i) in posts[7].category" :key="i">
                                     <span v-if="i + 1 == posts[7].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
+                                    <!-- COMMENTS -->
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
+                            <!-- READ MORE BUTTON -->
                             <a :href="posts[7].url"><button> READ MORE</button></a>
                         </div>
                     </div>
@@ -101,30 +128,39 @@
 
         <div class="post d-flex just-center">
             <div>
+                <!-- BACKGROUND IMAGE -->
                 <div class="main-image">
                     <img class="w-100" :src="'/images/blog-' + posts[9].bg_image + ' (1).jpg'" alt="">
                 </div>
                 <div class="description d-flex">
+                    <!-- DATE -->
                     <div class="date">
                         <div class="date-number">12</div>
                         <div class="date-month">jan</div>
                     </div>
+                    <!-- INFO -->
                     <div class="info">
+                        <!-- TITLE -->
                         <h2 class="mb-2">{{posts[17].title}}</h2>
+                        <!-- CONTENT -->
                         <p class="text">{{posts[9].content}}</p>
                         <span class="dots">[...]</span>
                         <div class="space-between d-flex">
                             <div>
+                                <!-- AUTHOR -->
                                 <span><i class="far fa-user"></i><a href="#">{{posts[9].author}}</a></span>
                                 <span>
+                                    <!-- CATEGORY (ONLY 2) -->
                                     <i class="far fa-folder"></i>
                                     <a href="#" v-for="(genre,i) in posts[9].category" :key="i">
                                     <span v-if="i + 1 == posts[9].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
+                                    <!-- COMMENTS -->
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
+                            <!-- READ MORE BUTTON -->
                             <a :href="posts[9].url"><button> READ MORE</button></a>
                         </div>
                     </div>
@@ -134,30 +170,39 @@
 
         <div class="post d-flex just-center">
             <div>
+                <!-- BACKGROUND IMAGE -->
                 <div class="main-image-array d-flex flex-wrap">
                     <img v-for="(img,i) in posts[16].bg_image" :key="i" :src="'/images/blog-' + img + '.jpg'" alt="">
                 </div>
                 <div class="description d-flex">
+                    <!-- DATE -->
                     <div class="date">
                         <div class="date-number">8</div>
                         <div class="date-month">jan</div>
                     </div>
+                    <!-- INFO -->
                     <div class="info">
+                        <!-- TITLE -->
                         <h2 class="mb-2">{{posts[16].title}}</h2>
+                        <!-- CONTENT -->
                         <p class="text">{{posts[16].content}}</p>
                         <span class="dots">[...]</span>
                         <div class="space-between d-flex">
                             <div>
+                                <!-- AUTHOR -->
                                 <span><i class="far fa-user"></i><a href="#">{{posts[16].author}}</a></span>
                                 <span>
+                                    <!-- CATEGORY (ONLY 2) -->
                                     <i class="far fa-folder"></i>
                                     <a href="#" v-for="(genre,i) in posts[16].category" :key="i">
                                     <span v-if="i + 1 == posts[16].category.length">{{genre}}</span>
                                     <span v-else>{{genre + ', '}}</span>
                                     </a>
                                     </span>
+                                    <!-- COMMENTS -->
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
+                            <!-- READ MORE BUTTON -->
                             <a :href="posts[16].url"><button> READ MORE</button></a>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- MAIN JUMBO CARD -->
         <a class="cover" :href="post.url"></a>
         <div class="dark-layer"></div>
         <img class="w-100" :src="'/images/blog-' + post.bg_image + '.jpg'" alt="">

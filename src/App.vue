@@ -14,6 +14,7 @@
       :categories="categories"
       />
     </footer>
+    <!-- ARROW BUTTON TO RETURN ON THE TOP OF THE PAGE -->
     <button class="return-arrow" @click="scrollToTop()"><i class="fas fa-angle-up"></i></button>
   </div>
 </template>
@@ -33,6 +34,7 @@ export default {
   },
   data () {
     return {
+      //NAVIGATION BUTTONS
       nav: [
         {
           section: 'SIGN IN',
@@ -80,6 +82,7 @@ export default {
         },
         
       ],
+      //POSTS ARRAY
       posts: [
         {
           author: 'John Doe',
@@ -328,10 +331,12 @@ export default {
           url: '#',
         },
       ],
+      //PAGE INFO
       blogInfo:{
         content:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, doloribus, laborum labore perferendis mollitia accusantium voluptatem dolorem sint nesciunt esse magnam hic impedit cupiditate. Quae dolorum id repellat dignissimos deleniti. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro illo perferendis nisi doloremque magni, ... architecto alias excepturi totam sunt vero quis, odit aperiam possimus veritatis officiis atque repellendus eos quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique distinctio suscipit perspiciatis veniam ducimus laudantium, ea dolor vel a officia deleniti, eius rerum laboriosam eligendi possimus porro facilis nulla consequatur?',
         url: '#'
       },
+      //RECENT POSTS
       recentPosts: [
         {
           title: 'Lorem ipsum dolor sit, consectetur adipiscing alit.',
@@ -344,6 +349,7 @@ export default {
           post_image: 'our-office-5-square.jpg'
         },
       ],
+      //RECENT COMMENTS
       recentComments: [
         {
           author: 'John Doe',
@@ -359,6 +365,7 @@ export default {
         },
         
       ],
+      //CATEGORIES
       categories: [
         'gadgets',
         'photography',
@@ -377,7 +384,8 @@ export default {
       ]
     }
   },
-  methods: { 
+  methods: {
+    //BUTTON TO RETURN ON THE TOP OF THE PAGE
   scrollToTop() {
     window.scrollTo(0,0);
   }
@@ -386,10 +394,15 @@ export default {
 </script>
 
 <style lang="scss">
+//FONT AWESOME
 @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+//GOOGLE FONTS
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Shadows+Into+Light&display=swap');
+//MAIN SCSS
 @import 'style/main.scss';
+//VARIABLES
 @import '@/style/variables.scss';
+//ARROW TO RETURN ON TOP SCSS
 .return-arrow{
   padding: 20px;
   font-size: $default-title-font-size;

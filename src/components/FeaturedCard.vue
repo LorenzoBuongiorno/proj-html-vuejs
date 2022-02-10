@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- FEATURED POST -->
         <h2>FEATURED POSTS</h2>
         <div class="featured-card-post">
             <a class="featured-cover" :href="posts[12].url"></a>
@@ -10,6 +11,7 @@
                 <div class="title">{{posts[12].title}}</div>
             </div>
         </div>
+        <!-- FEATURED AUTHOR -->
         <h2>FEATURED AUTHOR</h2>
         <div class="featured-card-author d-flex align-center">
             <div class="author-pic">

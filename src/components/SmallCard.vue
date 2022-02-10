@@ -1,11 +1,15 @@
 <template>
     <div class="card-row d-flex">
         <a class="card-cover" :href="postSmall.url"></a>
+        <!-- IMAGE -->
         <div class="image-small">
             <img class="w-100" :src="'/images/blog-' + postSmall.bg_image + '.jpg'" alt="">
         </div>
+        <!-- INFO -->
         <div>
+            <!-- TITLE -->
             <div class="title">{{postSmall.title}}</div>
+            <!-- DATE -->
             <div class="date">{{postSmall.date}}</div>
         </div>
     </div>
