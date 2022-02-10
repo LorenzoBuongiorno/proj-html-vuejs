@@ -152,6 +152,9 @@ export default {
       height: 70px;
       margin: 50px 15px;
       cursor: pointer;
+      &:hover{
+        transform: scale(110%);
+      }
     }
   }
   
