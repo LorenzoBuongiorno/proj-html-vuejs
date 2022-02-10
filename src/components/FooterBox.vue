@@ -46,6 +46,14 @@
                             </li> 
                         </ul>
                     </div>
+                    <div class="footer-box category-tag">
+                        <h2>CATEGORIES</h2>
+                        <ul>
+                            <li v-for="(category,i) in categories" :key="i">
+                                {{category}}
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom-bar"></div>
@@ -146,7 +154,18 @@ export default {
                     color: $main-blue-color;
                 }
             }
-
+        }
+        .category-tag{
+            li{
+                display: inline-block;
+                padding: 10px;
+                background-color: #000;
+                border-radius: 5px;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 900;
+                margin: 8px 10px;
+            }
         }
     }
 
