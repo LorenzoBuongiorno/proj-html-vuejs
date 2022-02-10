@@ -46,17 +46,29 @@
                             </li> 
                         </ul>
                     </div>
-                    <div class="footer-box category-tag">
+                    <div class="footer-box">
                         <h2>CATEGORIES</h2>
                         <ul>
-                            <li v-for="(category,i) in categories" :key="i">
+                            <li class="category-tag" v-for="(category,i) in categories" :key="i">
                                 {{category}}
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom-bar"></div>
+            <div class="footer-bottom-bar flex-just-center">
+                <div class="row space-between">
+                    <div class="copyright">
+                        <img src="images/logo-footer.png" alt="">
+                        <span>&copy; Copyright 2020. All Rights Reserved.</span>
+                    </div>
+                    <div class="copyright">
+                        <a href="#">> FAQ's</a>
+                        <a href="#">> Sitemap</a>
+                        <a href="#">> Contact Us</a>
+                    </div>
+                </div>
+            </div>
     </div>
 </template>
 
@@ -156,16 +168,31 @@ export default {
             }
         }
         .category-tag{
-            li{
-                display: inline-block;
-                padding: 10px;
-                background-color: #000;
-                border-radius: 5px;
-                color: #fff;
-                font-size: 15px;
-                font-weight: 900;
-                margin: 8px 10px;
-            }
+            display: inline-block;
+            padding: 10px;
+            background-color: #000;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 900;
+            margin: 8px 10px;
+        }
+    }
+    .footer-bottom-bar{
+        background-color: #1c2023;
+    }
+    .copyright{
+        display: flex;
+        align-items: center;
+        color: #888;
+        img{
+            width: 180px;
+            padding: 20px;
+            opacity: 50%;
+        }
+        a{
+            color: #888;
+            margin-right: 10px;
         }
     }
 
