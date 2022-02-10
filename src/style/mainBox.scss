@@ -36,8 +36,10 @@
         height: 70px;
         margin: 50px 15px;
         cursor: pointer;
+        transition: transform 0.3s;
         &:hover{
           transform: scale(110%);
+          transition: transform 0.3s;
         }
       }
     

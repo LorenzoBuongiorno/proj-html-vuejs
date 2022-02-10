@@ -28,7 +28,8 @@ export default {
     height: 100%;
     cursor: pointer;
     &:hover ~ .dark-layer{
-        display: block;
+        opacity: 60%;
+        transition: opacity 0.3s;
     }
     &:hover ~ .post-introduction .description{
         display: block;
@@ -38,10 +39,10 @@ export default {
     background-color: #000;
     width: 100%;
     height: 100%;
-    opacity: 60%;
+    opacity: 0%;
     position: absolute;
     z-index: 2;
-    display: none;
+    transition: opacity 0.3s;
 }
 .post-introduction{
     position: absolute;
