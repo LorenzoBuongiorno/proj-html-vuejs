@@ -9,19 +9,19 @@
       </div>
       <div class="content-preview d-flex just-center">
         <div class="row">
-          <div class="jumbo-column popular-posts">
+          <div class="jumbo-column">
             <h2>POPULAR POSTS</h2>
             <div class="card-small" v-for="(postSmall,i) in posts" :key="i" :class="i > 5 && i < 11 ? '' : 'empty'">
               <small-card v-if="i > 5 && i < 11" :postSmall="postSmall"/>
             </div>
           </div>
-          <div class="jumbo-column recent-posts">
+          <div class="jumbo-column">
             <h2>RECENT POSTS</h2>
               <div class="card-small" v-for="(postSmall,i) in posts" :key="i" :class="i > 10 && i < 16 ? '' : 'empty'">
               <small-card v-if="i > 10 && i < 16" :postSmall="postSmall"/>
             </div>
           </div>
-          <div class="jumbo-column featured-posts">
+          <div class="jumbo-column">
             <featured-card :posts="posts"/>
           
           </div>

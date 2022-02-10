@@ -26,7 +26,7 @@
                                     </span>
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
-                            <button>READ MORE</button>
+                            <a :href="posts[17].url"><button> READ MORE</button></a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                                     </span>
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
-                            <button>READ MORE</button>
+                            <a :href="posts[6].url"><button> READ MORE</button></a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                                     </span>
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
-                            <button>READ MORE</button>
+                            <a :href="posts[7].url"><button> READ MORE</button></a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                                     </span>
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
-                            <button>READ MORE</button>
+                            <a :href="posts[9].url"><button> READ MORE</button></a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                                     </span>
                                 <span><i class="far fa-comments"></i><a href="#">12 Comments</a></span>
                             </div>
-                            <button>READ MORE</button>
+                            <a :href="posts[16].url"><button> READ MORE</button></a>
                         </div>
                     </div>
                 </div>

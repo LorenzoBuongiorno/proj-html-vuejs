@@ -2,7 +2,8 @@
     <div>
         <h2>FEATURED POSTS</h2>
         <div class="featured-card-post">
-            <div class="dark-layer"></div>
+            <a class="featured-cover" :href="posts[12].url"></a>
+            <div class="dark-layer-featured"></div>
             <img class="w-100" :src="'/images/blog-' + posts[12].bg_image + ' (1).jpg'" alt="">
             <div class="post-introduction">
                 <span class="category">{{posts[12].category[0]}}</span>
@@ -15,7 +16,7 @@
                 <img class="w-100" :src="'/images/avatar.jpg'" alt="">
             </div>
             <div>
-                <div class="author mb-1">{{posts[12].author}}</div>
+                <a :href="posts[12].url" class="author mb-1">{{posts[12].author}}</a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, consequatur ipsa adipisci possimus vitae eveniet id commodi, laudantium excepturi unde eligendi ipsum?</p>
             </div>
         </div>
@@ -34,11 +35,17 @@ export default {
 @import '@/style/variables.scss';
 .featured-card-post{
     position: relative;
-    .dark-layer{
+    .featured-cover{
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba($color: #000000, $alpha: 0.5);
+        z-index: 5;
+    }
+    .dark-layer-featured{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000, $alpha: 0.5);
     }
     .post-introduction{
         position: absolute;
