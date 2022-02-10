@@ -14,6 +14,7 @@
       :categories="categories"
       />
     </footer>
+    <button class="return-arrow" @click="scrollToTop()"><i class="fas fa-angle-up"></i></button>
   </div>
 </template>
 
@@ -357,7 +358,12 @@ export default {
 
       ]
     }
+  },
+  methods: { 
+  scrollToTop() {
+    window.scrollTo(0,0);
   }
+}
 }
 </script>
 
@@ -365,5 +371,21 @@ export default {
 @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Shadows+Into+Light&display=swap');
 @import 'style/main.scss';
+@import '@/style/variables.scss';
+.return-arrow{
+  padding: 20px;
+  font-size: $default-title-font-size;
+  color: $light-color;
+  font-weight: 900;
+  border: 0px;
+  border-radius: 10px;
+  width: 70px;
+  height: 70px;
+  background-color: $dark-grey-color;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+}
 
 </style>
