@@ -13,8 +13,24 @@
                         <p class="about-blog">{{blogInfo.content}}</p>
                         <a :href="blogInfo.url">VIEW MORE ></a>
                     </div>
-                    <div class="footer-box"></div>
-                    <div class="footer-box"></div>
+                    <div class="footer-box">
+                        <h2>RECENT POSTS</h2>
+                        <ul class="recent-post">
+                           <li v-for="(recentpost,i) in recentPosts" :key="i" :class="i < 2 ? '' : 'empty'">
+                               <div v-if="i < 2" class="recent-post-card">
+                                    <img :src="'images/' + recentpost.post_image" alt="">
+                                    <div>
+                                        <p>{{recentpost.title}}</p>
+                                        <span>{{recentpost.date}}</span>
+                                    </div>
+                               </div>
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h2>RECENT COMMENTS</h2>
+
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom-bar"></div>
@@ -58,10 +74,10 @@ export default {
         }
     }
     .footer-content{
-        padding-top: 30px;
+        padding: 30px 0px;
         background-color: #212529;
         .footer-box{
-            width: calc(100% / 3 - 30px);
+            width: calc(100% / 4 - 30px);
             margin: 0px 15px;
         }
         .about-blog{
@@ -79,6 +95,28 @@ export default {
         a{
           color: $light-color;
           font-weight: 900;
+        }
+        .recent-post{
+            li{
+                .recent-post-card{
+                    display: flex;
+                    margin: 20px 0px;
+                    img{
+                        border-radius: 50%;
+                        margin-right: 20px;
+                    }
+                    p{
+                        font-size: 18px;
+                        font-weight: 900;
+                        color: #fff;
+                        margin-bottom: 10px;
+                    }
+                    span{
+                        color: #888;
+                    }
+                }
+            }
+
         }
     }
 
